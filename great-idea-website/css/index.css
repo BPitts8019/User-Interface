@@ -66,25 +66,54 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .container {
 	margin: 0 75px;
-	width: 900px;
+	width: 875px;
+}
+
+nav {
+	text-align: justify;
 }
 
 nav a {
 	color: lightgrey;
 	font-size: 14px;
+	font-weight: bolder;
 	text-decoration: none;
-	margin-right: 62px;
+	margin-right: 63px;
+	vertical-align: middle;
 }
 
 nav img {
 	vertical-align: middle;
-	margin: 27px;
+	margin: 27px 0px 27px 27px;
+}
+
+header {
+	border-bottom: 1px solid black;
 }
 
 header div {
 	display: inline-block;
-	font-size: 75px;
-	margin: 25px 0px;
+	margin: 40px;
 	text-align: center;
-	width: 400px;
+	vertical-align: middle;
+	width: 379px;
+}
+
+header h1 {
+	font-size: 71px;
+	font-weight: bolder;
+	padding: 18px 35px;
+	letter-spacing: 4px;
+}
+
+header button {
+	background-color: white;
+	border: 1px solid black;
+	text-decoration: none;
+}
+
+header img {
+	display: inline-block;
+	margin: 40px 0px 40px 0px;
+	vertical-align: middle;
 }
