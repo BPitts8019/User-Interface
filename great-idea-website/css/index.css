@@ -69,6 +69,10 @@ h1, h2, h3, h4, h5 {
 	width: 875px;
 }
 
+h1, h2 {
+	font-weight: bolder;
+}
+
 nav {
 	text-align: justify;
 }
@@ -101,7 +105,6 @@ header div {
 
 header h1 {
 	font-size: 71px;
-	font-weight: bolder;
 	padding: 18px 35px;
 	letter-spacing: 4px;
 }
@@ -116,4 +119,18 @@ header img {
 	display: inline-block;
 	margin: 40px 0px 40px 0px;
 	vertical-align: middle;
+}
+
+section div {
+	margin: 38px 0px;
+}
+
+.main-info {
+	display: inline-block;
+	width: 49%;
+}
+
+.extra-info {
+	display: inline-block;
+	width: 33%
 }
