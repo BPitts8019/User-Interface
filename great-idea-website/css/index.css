@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-	margin: 0 74px;
+	margin: 0 75px;
 	width: 876px;
 }
 
@@ -151,6 +151,15 @@ section {
 section div {
 	display: inline-block;
 }
+
+section img {
+	margin-bottom: 37px;
+}
+
+address {
+	border-top: 1px solid black;
+}
+
 .main-info {
 	margin-top: 38px;
 	margin-bottom: 36px;
@@ -161,10 +170,15 @@ section div {
 	margin-bottom: 17px;
 }
 
-.extra-info {
-	width: 33%
+.main-info-spacer {
+	width: 18px;
 }
 
-.info-spacer {
-	width: 18px;
+.extra-info {
+	width: 276px;
+	margin-bottom: 46px;
+}
+
+.extra-info-spacer {
+	width: 16px;
 }
