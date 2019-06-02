@@ -69,8 +69,14 @@ h1, h2, h3, h4, h5 {
 	width: 876px;
 }
 
-h1, h2 {
+h1 {
 	font-weight: bolder;
+}
+
+p {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.14em;
 }
 
 button {
@@ -138,16 +144,27 @@ header img {
 	vertical-align: middle;
 }
 
-section div {
-	margin: 38px 0px;
+section {
+	border-top: 1px solid black;
 }
 
-.main-info {
+section div {
 	display: inline-block;
-	width: 49%;
+}
+.main-info {
+	margin-top: 38px;
+	margin-bottom: 36px;
+	width: 423px;
+}
+
+.main-info h2 {
+	margin-bottom: 17px;
 }
 
 .extra-info {
-	display: inline-block;
 	width: 33%
+}
+
+.info-spacer {
+	width: 18px;
 }
