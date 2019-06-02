@@ -73,6 +73,28 @@ h1, h2 {
 	font-weight: bolder;
 }
 
+button {
+	background-color: white;
+	border: 1px solid black;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 18px;
+	outline: none;
+	padding: 2px 42px;
+}
+
+button:hover {
+	background-color: black;
+	border-color: #027DDD;
+	color: #027DDD;
+}
+
+button:active {
+	background-color: #12E15F;
+	border-color: black;
+	color: black;
+}
+
 nav {
 	text-align: justify;
 }
@@ -107,12 +129,6 @@ header h1 {
 	font-size: 71px;
 	padding: 18px 35px;
 	letter-spacing: 4px;
-}
-
-header button {
-	background-color: white;
-	border: 1px solid black;
-	text-decoration: none;
 }
 
 header img {
