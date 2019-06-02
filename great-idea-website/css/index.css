@@ -70,7 +70,12 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
+	font-size: 71px;
 	font-weight: bolder;
+}
+
+h2 {
+	margin-bottom: 17px;
 }
 
 p {
@@ -133,7 +138,6 @@ header div {
 }
 
 header h1 {
-	font-size: 71px;
 	padding: 17px 35px;
 	letter-spacing: 6px;
 }
@@ -153,21 +157,13 @@ section div {
 }
 
 section img {
-	margin-bottom: 37px;
-}
-
-address {
-	border-top: 1px solid black;
+	margin-bottom: 36px;
 }
 
 .main-info {
 	margin-top: 38px;
 	margin-bottom: 36px;
 	width: 423px;
-}
-
-.main-info h2 {
-	margin-bottom: 17px;
 }
 
 .main-info-spacer {
@@ -181,4 +177,22 @@ address {
 
 .extra-info-spacer {
 	width: 16px;
+}
+
+address {
+	border-top: 1px solid black;
+}
+
+address h2 {
+	margin-top: 37px;
+}
+
+address div {
+	line-height: 3.73;
+}
+
+footer {
+	font-size: 14px;
+	margin: 55px 0px;
+	text-align: center;
 }
