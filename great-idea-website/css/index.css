@@ -64,3 +64,135 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	margin: 0 75px;
+	width: 876px;
+}
+
+h1 {
+	font-size: 71px;
+	font-weight: bolder;
+}
+
+h2 {
+	margin-bottom: 17px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.14em;
+}
+
+button {
+	background-color: white;
+	border: 1px solid black;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 17px;
+	outline: none;
+	padding: 4px 45px;
+}
+
+button:hover {
+	background-color: black;
+	border-color: #027DDD;
+	color: #027DDD;
+}
+
+button:active {
+	background-color: #12E15F;
+	border-color: black;
+	color: black;
+}
+
+nav {
+	text-align: justify;
+}
+
+nav a {
+	color: lightgrey;
+	font-size: 14px;
+	font-weight: bolder;
+	text-decoration: none;
+	margin-right: 63px;
+	vertical-align: middle;
+}
+
+nav img {
+	vertical-align: middle;
+	margin: 27px 0px 27px 27px;
+}
+
+header {
+	margin-bottom: 37px;
+}
+
+header div {
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 72px;
+	text-align: center;
+	vertical-align: middle;
+	width: 379px;
+}
+
+header h1 {
+	padding: 17px 35px;
+	letter-spacing: 6px;
+}
+
+header img {
+	display: inline-block;
+	margin: 43px 0px 40px 0px;
+	vertical-align: middle;
+}
+
+section {
+	border-top: 1px solid black;
+}
+
+section div {
+	display: inline-block;
+}
+
+section img {
+	margin-bottom: 36px;
+}
+
+.main-info {
+	margin-top: 38px;
+	margin-bottom: 36px;
+	width: 423px;
+}
+
+.main-info-spacer {
+	width: 18px;
+}
+
+.extra-info {
+	width: 276px;
+	margin-bottom: 46px;
+}
+
+.extra-info-spacer {
+	width: 16px;
+}
+
+address {
+	border-top: 1px solid black;
+}
+
+address h2 {
+	margin-top: 37px;
+}
+
+address div {
+	line-height: 3.73;
+}
+
+footer {
+	font-size: 14px;
+	margin: 55px 0px;
+	text-align: center;
+}
